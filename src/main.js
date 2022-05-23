@@ -7,10 +7,12 @@ Vue.config.productionTip = false;
 
 import "bootstrap/dist/css/bootstrap.css";
 import vuetify from "./plugins/vuetify";
+import { createProvider } from "./vue-apollo";
 
 new Vue({
   router,
   store,
   vuetify,
+  apolloProvider: createProvider(),
   render: (h) => h(App),
 }).$mount("#app");
