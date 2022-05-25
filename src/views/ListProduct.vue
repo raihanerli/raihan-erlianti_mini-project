@@ -3,8 +3,8 @@
     <v-app-bar elevation="1" color="#f1f1f1">
       <img src="../assets/Logo.png" alt="" />
       <v-spacer></v-spacer>
-      <v-btn icon>
-        <v-icon color="#1F0824">mdi-cart</v-icon>
+      <v-btn icon to="/">
+        <v-icon color="#1F0824" width="15%">mdi-chevron-left</v-icon>
       </v-btn>
     </v-app-bar>
     <v-row>

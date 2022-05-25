@@ -14,7 +14,9 @@
       </v-col>
     </v-row>
 
-    <v-footer color="#1F0824" height="40"></v-footer>
+    <v-footer light color="#1F0824" height="40">
+      <p color="#FFF">Copyright by Raihanerli | 2022 | Mini-Project</p>
+    </v-footer>
   </div>
 </template>
 
