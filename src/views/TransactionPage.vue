@@ -13,7 +13,7 @@
 
     <v-row class="text-center mt-4 mb-4">
       <v-col>
-        <img width="10%" src="../assets/checked.png" alt="" />
+        <img width="20%" src="../assets/checked.png" alt="" />
       </v-col>
     </v-row>
 
